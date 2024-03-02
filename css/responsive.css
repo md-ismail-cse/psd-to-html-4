@@ -1,0 +1,203 @@
+/*==================================================
+			Bootstrap 3 Media Queries         
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    /* Code */
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Code */
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (max-width: 991px) {
+    .icon-box a {
+        font-size: 35px;
+        height: 100px;
+        width: 100px;
+        padding: 25px 0;
+        margin: 0 20px;
+    }
+
+    .icon-box a:after {
+        right: -42px;
+        width: 35px;
+    }
+
+    .icon-left {
+        width: 100%;
+    }
+
+    .icon-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .navbar-brand {
+        padding: 0.5rem 0;
+        margin-left: 15px;
+    }
+
+    .navbar {
+        padding: 5px 0;
+    }
+
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    /* Code */
+}
+
+
+
+@media (max-width:640px) {
+    section {
+        background-attachment: initial;
+    }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+    .hero-box {
+        width: 95%;
+    }
+
+    .blog-filer-menu {
+        padding: 1.1rem 0;
+        text-align: center;
+    }
+
+    .blog-header select {
+        margin-bottom: 10px;
+    }
+
+    .btn-blog {
+        margin-bottom: 10px;
+    }
+
+    .blog-filer-icon {
+        text-align: center;
+    }
+
+    .single-blog-header {
+        height: 30rem;
+    }
+
+    .icon-box a:after {
+        content: none;
+    }
+
+    .icon-box a {
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-top {
+        padding-bottom: 0;
+    }
+
+    .footer-bottom {
+        padding-top: 0;
+    }
+
+    h5 {
+        margin-top: 2rem;
+    }
+
+    .blog-body {
+        background: #f3f1f2;
+        padding: 1rem 0;
+    }
+
+    .blog-bottom {
+        padding: 1rem 0;
+    }
+
+    .footer {
+        padding: 1rem 0;
+    }
+
+    .single-blog {
+        margin-bottom: 2rem;
+    }
+
+    .single-blog-lg {
+        margin-bottom: 2rem;
+    }
+
+    .btn-load-more {
+        margin-bottom: 2rem;
+    }
+
+    .icon-box {
+        margin: 2rem 0;
+    }
+
+    .bottom-icon-box {
+        padding: 1.5rem;
+    }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px) {
+    .single-blog-header {
+        height: 19.5rem;
+    }
+
+    .blog-lg-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .blog-lg-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-lg-right .total-rating li {
+        margin-left: 55px;
+    }
+
+
+
+
+
+
+
+
+
+}
